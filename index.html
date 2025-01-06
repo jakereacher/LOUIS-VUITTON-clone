@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOUIS VUITTON | OFFICIAL INTERNATIONAL WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <!-- Google Material Icons link -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png"> <!-- Replace with the path to your image -->
+  </head>
+  
+<body>
+  <nav class="navbar">
+    <div class="menu">
+        <!-- Hamburger Icon -->
+        <div class="hamburger">
+            <span class="material-icons">menu</span>
+        </div>
+        <a href="#" class="menu-text">Menu</a>
+        <div class="search">
+            <button class="search-button">
+                <span class="material-icons">search</span> Search
+            </button>
+        </div>
+    </div>
+    <div class="logo">LOUIS VUITTON</div>
+    <div class="icons">
+        <a href="#" class="call-us">Call Us</a>
+        <span class="material-icons heart">favorite_border</span>
+        <i class="material-icons" style="font-size:24px">person_outline</i>
+        <span class="material-icons user">person_outline</span>
+    </div>
+</nav
+
+  <div class="video-container">
+    <video id="video" autoplay loop muted>
+      <source src="zendaya.mp4" type="video/mp4"> <!-- Replace with your video URL -->
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Custom Controls -->
+    <div class="video-controls">
+      <!-- Play Button -->
+      <button class="play-btn" id="playBtn">
+        <span class="material-icons-outlined">play_arrow</span>
+      </button>
+      <!-- Mute Button -->
+      <button class="mute-btn" id="muteBtn">
+        <span class="material-icons-outlined">volume_off</span>
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // Get the video element and control buttons
+    const video = document.getElementById('video');
+    const playBtn = document.getElementById('playBtn');
+    const muteBtn = document.getElementById('muteBtn');
+
+    // Play/Pause functionality
+    playBtn.addEventListener('click', function() {
+      if (video.paused) {
+        video.play();
+        playBtn.innerHTML = '<span class="material-icons-outlined">pause</span>';
+      } else {
+        video.pause();
+        playBtn.innerHTML = '<span class="material-icons-outlined">play_arrow</span>';
+      }
+    });
+
+    // Mute/Unmute functionality
+    muteBtn.addEventListener('click', function() {
+      video.muted = !video.muted;
+      if (video.muted) {
+        muteBtn.innerHTML = '<span class="material-icons-outlined">volume_up</span>';
+      } else {
+        muteBtn.innerHTML = '<span class="material-icons-outlined">volume_off</span>';
+      }
+    });
+  </script>
+
+<div class="text-container">
+  <p class="line-text">Iconic Re-Edition</p> <!-- First line -->
+  <p class="main-text">Louis Vuitton x Murakami</p> <!-- Second larger line -->
+</div>
+
+<div class="image-line">
+  <!-- Image 1 with name -->
+  <div class="image-item">
+    <img src="images/Womens Handbag.jpg" alt="Handbag">
+    <p class="image-name">Women's Handbags</p>
+  </div>
+
+  <!-- Image 2 with name -->
+  <div class="image-item">
+    <img src="images/wallet.jpg" alt="wallet">
+    <p class="image-name">Women's Wallets and Small Leather Goods</p>
+  </div>
+
+  <!-- Image 3 with name -->
+  <div class="image-item">
+    <img src="images/accesories.jpg" alt="accesories">
+    <p class="image-name">Women's Accessories</p>
+  </div>
+
+  <!-- Image 4 with name -->
+  <div class="image-item">
+    <img src="images/footwear.jpg" alt="footwear">
+    <p class="image-name">Women's Shoes</p>
+  </div>
+</div>
+
+<div class="discover-container">
+  <div class="discover-box">
+    Discover the Collection
+  </div>
+</div>
+<div class="image-container">
+  <img src="images/model male.jpg" alt="Collection Image" class="discover-image">
+</div>
+<div class="text-container2">
+  <p class="line-text2">Men</p> <!-- First line -->
+  <p class="main-text2">Men's Spring-Summer 2025</p> <!-- Second larger line -->
+</div>
+<div class="image-line2">
+  <!-- Image 1 with name -->
+  <div class="image-item2">
+    <img src="images/cargo.jpg" alt="Handbag">
+    <p class="image-name2">Montsouris Cargo Backpsck</p>
+    <p class="image-price">₹4,85,000.00</p> <!-- New line below name -->
+  </div>
+  <!-- Image 2 with name -->
+  <div class="image-item2">
+    <img src="images/tshirt.jpg" alt="wallet">
+    <p class="image-name2">Jacquard Damier Short-Sleeved Cotton Crewneck</p>
+    <p class="image-price">₹1,10,000.00</p> <!-- New line below name -->
+  </div>
+  <!-- Image 3 with name -->
+  <div class="image-item2">
+    <img src="images/bag.jpg" alt="accessories">
+    <p class="image-name2">Noe Cargo</p>
+    <p class="image-price">₹2,32,000.00</p> <!-- New line below name -->
+  </div>
+  <!-- Image 4 with name -->
+  <div class="image-item2">
+    <img src="images/pocket.jpg" alt="footwear">
+    <p class="image-name2">Pocket Organiser</p>
+    <p class="image-price">₹43,000.00</p> <!-- New line below name -->
+  </div>
+  </div>
+  <div class="discover-container2">
+    <div class="discover-box2">
+      Discover the Collection
+    </div>
+  </div>
+  <div class="image-container">
+    <img src="images/blonde girl.jpg" alt="Collection Image" class="discover-image">
+  </div>
+  <div class="text-container2">
+    <p class="line-text2">Women</p> <!-- First line -->
+    <p class="main-text2">Monogram Signature</p> <!-- Second larger line -->
+  </div>
+  <div class="image-line2">
+    <!-- Image 1 with name -->
+    <div class="image-item2">
+      <img src="images/carry all BB.jpg" alt="Handbag">
+      <p class="image-name2">CarryAll BB</p>
+      <p class="image-price">₹2,39,000.00</p> <!-- New line below name -->
+    </div>
+    <!-- Image 2 with name -->
+    <div class="image-item2">
+      <img src="images/nano speed.jpg" alt="wallet">
+      <p class="image-name2">Nano Speedy Dating</p>
+      <p class="image-price">₹2,15,000.00</p> <!-- New line below name -->
+    </div>
+    <!-- Image 3 with name -->
+    <div class="image-item2">
+      <img src="images/looping.jpg" alt="accessories">
+      <p class="image-name2">Looping</p>
+      <p class="image-price">₹2,36,000.00</p> <!-- New line below name -->
+    </div>
+    <!-- Image 4 with name -->
+    <div class="image-item2">
+      <img src="images/sunset.jpg" alt="footwear">
+      <p class="image-name2">Sunset</p>
+      <p class="image-price">₹2,37,000.00</p> <!-- New line below name -->
+    </div>
+    </div>
+    <div class="discover-container2">
+      <div class="discover-box2">
+        Discover the Collection
+      </div>
+    </div>
+    <div class="text-container3">
+      <p class="main-text3">Louis Vuitton Services</p> <!-- Second larger line -->
+      <p class="line-text3">Louis Vuitton offers complementary wrapping on all orders, carefully packaged <br> in the Maison's iconic boxes.
+      </p>
+    </div>
+
+    <div class="image-line3">
+      <!-- Image 1 with name -->
+      <div class="image-item3">
+        <img src="images/services.jpg" alt="Handbag">
+        <p class="image-name3">Services</p>
+        <p class="image-price2"><a href="">Contact Us</a></p>
+      </div>
+
+      <!-- Image 2 with name -->
+      <div class="image-item3">
+        <img src="images/art of gifting.jpg" alt="Accessories">
+        <p class="image-name3">Art of Gifting</p>
+        <div class="spaceven-splitline">
+          <a href="#">Gifts for Women</a>
+          <span>   </span>
+          <a href="#">Gifts for Men</a>
+        </div>
+      </div>   
+      <!-- Image 3 with name -->
+      <div class="image-item3">
+        <img src="images/personalisation.jpg" alt="Wallet">
+        <p class="image-name3">Personalisation</p>
+        <p class="image-price2"><a href="">Explore</a></p>
+      </div>
+    </div>
+    <div class="under-section">
+      <div class="under-column">
+        <ul>
+          <li>HELP</li>
+          <li><a href="#">You can call or email us.</a></li>
+          <li><a href="#">FAQ's</a></li>
+          <li><a href="#">Product Care</a></li>
+          <li><a href="#">Stores</a></li>
+        </ul>
+      </div>
+      <div class="under-column">
+        <ul>
+          <li>SERVICES</li>
+          <li><a href="#">Repairs</a></li>
+          <li><a href="#">Personalization</a></li>
+          <li><a href="#">Art of Gifting</a></li>
+          <li><a href="#">Download our Apps</a></li>
+        </ul>
+      </div>
+      <div class="under-column">
+        <ul>
+          <li>ABOUT US</li>
+          <li><a href="#">Fashion Shows</a></li>
+          <li><a href="#">Arts & Culture</a></li>
+          <li><a href="#">La Maison</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Latest News</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Foundation</a></li>
+        </ul>
+      </div>
+      <div class="under-column">
+        <ul>
+          <li>EMAIL SIGN-UP</li>
+          <li><a href="#">Sign up</a> for Louis Vuitton emails and receive the latest news from the Maison, including exclusive online pre-launches and new collections</li>
+          <li><a href="#">Follow Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <footer class="custom-footer">
+      <div class="footer-left">ENGLISH(INTL)</div>
+      <div class="footer-center">
+        <strong>Louis Vuitton</strong>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Legal & privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+      </div>
+    </footer>
+    
+</body>
+</html>
